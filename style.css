@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Image Fade-in Effect */
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 35%;
+  margin-right: 30%;
+  border-radius: 40%;
+  margin-bottom: 5%;
+}
+  
+.rotatable-image {
+  transition: transform 0.3s ease;
+}
+  
+.rotatable-image:hover {
+  transform: rotate(180deg);
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 5%;
+    cursor: pointer;
+    transition: color 1.5s ease;
+    transition: font-size 0.3s ease;
+    transition: opacity 0.3s ease;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+    opacity: 1;
+}
+.footer:hover{
+    color: blue;
+    font-size: 20px;
+    opacity: 0.7;
+    background-color: rgb(0, 255, 149);
+}
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+}
