@@ -1,61 +1,29 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+/* Main Page of Recipes */
+.header{
+    font-size: medium;
+    margin: 1%;
+    padding: 1%;
+    background-color: rgb(191, 191, 191);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: black;
 }
 
-h1 {
-  text-align: center;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* Image Fade-in Effect */
-
-.image-container {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-  margin-left: 35%;
-  margin-right: 30%;
-  border-radius: 40%;
-  margin-bottom: 5%;
-}
-  
-.rotatable-image {
-  transition: transform 0.3s ease;
-}
-  
-.rotatable-image:hover {
-  transform: rotate(180deg);
+.section{
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    color: aqua;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footer{
-    text-align: center;
-    margin-bottom: 5%;
-    cursor: pointer;
-    transition: color 1.5s ease;
-    transition: font-size 0.3s ease;
-    transition: opacity 0.3s ease;
-    transition: background-color 0.3s ease;
-    background-color: transparent;
-    opacity: 1;
-}
-.footer:hover{
-    color: blue;
-    font-size: 20px;
-    opacity: 0.7;
-    background-color: rgb(0, 255, 149);
-}
-/* Responsive Styles */
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
+    text-align: left;
+    color: black;
+    font-size: smaller;
 }
